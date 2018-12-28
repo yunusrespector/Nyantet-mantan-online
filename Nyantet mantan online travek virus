@@ -1,0 +1,70 @@
+## NYANTET MANTAN EA
+
+# Thx To Mr.Clay||vip sword||vip rifaldi||vip rxking||vip newbie
+
+# -*- Mantan Santet aja: utf-8 -*-
+
+# SANTRI TEAM OFFICIAL
+
+##
+
+import time
+
+from core.misc import *
+
+from core.onlen import *
+
+
+clearscreen()
+
+logo()
+
+print """
+
+Select from the menu:
+
+01) Buat Payload dan Listener Netcat
+
+02) Facebook Group Hijack Attack
+
+03) SMS Vektor Serangan Bomber
+
+04) SMS Vector serangan Spoof
+
+05) Serangan denial-of-Service
+
+00) Keluar
+
+"""
+
+santet = raw_input("santet > ")
+
+
+if santet == "01" or santet == "1":
+
+	netcat_rat()
+
+elif santet == "02" or santet == "2":
+
+	facebookgroup_hijack()
+
+elif santet == "03" or santet == "3":
+
+	sms_bomber_jdid()
+
+elif santet == "04" or santet == "4":
+
+	sms_spoof_elk()
+
+elif santet == "05" or santet == "5":
+
+	denialofservice_attack()
+
+else:
+
+	print "\nERROR: Wrong Input..."
+
+	time.sleep(2)
+
+	restart_program()
+
